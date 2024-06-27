@@ -358,7 +358,7 @@ function handleAntiFraudFee(){
         if (result.isConfirmed || !result.isConfirmed) {
             handleUserNextLevel();
             isLoading(1);
-            window.location.href = "https://pay.segurospag.com/checkout/6129d442-42f2-408c-bdbc-676906ff9063";
+            window.location.href = "https://checkout.pepper.com.br/?p=143043&o=182978";
         }
     });
 }
